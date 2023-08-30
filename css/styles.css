@@ -1,0 +1,143 @@
+/*mainpage*/
+
+@font-face {
+    font-family: 'Inter', 'Roboto', 'Raleway';
+    src: url("../fonts/Inter.ttf/../Raleway.ttf/../Roboto.ttf");
+}
+body{
+    margin:0;
+    padding:0;
+    height:100vh;
+    width: 100%;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+}
+header{
+        background-position: bottom,right;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-image: url(../images/greg-rakozy-oMpAz-DN-9I-unsplash.jpg);
+        display: flex;
+        flex-shrink: inherit;
+        align-items: center;
+        justify-content:center;
+        background-color: lightskyblue;
+        width:100%;
+        height: 20%;
+    }
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+h1{
+    font-size: 50px;
+    font-family: 'Inter','Raleway','Roboto';
+}
+h2{
+    font-size: 60px;
+    font-family:'Inter','Raleway','Roboto';
+    color: rgb(252, 252, 250);
+    stroke: black;
+    stroke-width: 3px;
+    
+}
+a[href="tickets.html"]{
+    font-size: 25px;
+    font-family: 'Raleway';
+    background-color: black;
+    border-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px 30px 10px 30px;
+    text-align: center;
+    border-radius: 30px;
+}
+.container{
+    position: relative;
+    justify-content: space-between;
+    width: 360px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.department{
+    position: absolute;
+    text-align:justify;
+    padding:30px;
+    
+}
+img {
+    width: 300px;
+    height: 500px;
+    margin: 20px;
+}
+.button_dark{
+    display: flex;
+    flex-wrap: wrap;
+font-size: 15px;
+font-family: 'Inter';
+text-decoration: none;
+padding: 10px 10px 10px 10px;
+background-color: aquamarine;
+border-radius: 30px;
+position: absolute;
+margin-top: 350px;
+margin-left: 100px;
+}
+a[href="lab&exhibits.html"]{
+    text-decoration: none;
+    color: black;
+}
+.subtext1{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    font-size: 17px;
+    font-family: 'Inter';
+    justify-content: start;
+    position: absolute;
+    bottom: 8px;
+    left:16px;
+    right:100px;
+    padding:10px;
+}
+.pin{
+    color: white;
+    font-size:xx-large;
+    flex-direction: column;
+    text-align:center;
+    position: absolute;
+    bottom: 90px;
+    left:16px;
+    right:100px;
+    padding:10px;
+
+}
+a{
+    font-family: 'Railway', 'Inter', 'Roboto';
+    font-size: 30px;
+    text-decoration: none;
+    padding-right: 40px;
+    margin-left: 30px;
+    color: white;
+
+}
+footer{
+
+    background-image:url(/images/alexander-andrews-fsH1KjbdjE8-unsplash.jpg);
+}
+.openhour
+{
+    font-size: 20px;
+    font-family: 'inter';
+    text-align: center;
+    color: white;
+}
+.some
+{
+    text-align: center;
+    margin-bottom: 10px;
+
+}
