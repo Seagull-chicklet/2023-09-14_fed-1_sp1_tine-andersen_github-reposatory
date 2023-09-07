@@ -26,8 +26,8 @@
       <a href="lab&exhibits.html">Options</a>
       <a href="Schedule.html">Schedule</a>
       <a href="tickets.html">Tickets</a>
-      <a href="Sign_in.html">Sign in</a>
-      <a href="login.html">Back</a>
+      <a href="sign_in.html">Sign in</a>
+      <a href="sign_in.html">Back</a>
       <a href="checkout.html"> <i class="fa-solid fa-cart-shopping"></i></a>
     </div>
     <div class="main">
@@ -40,43 +40,25 @@
           alt="three water glasses filled with water diffusing with color blue"
         />
         <div class="ticket-options">
-          <h3>LAB 1</h3>
-          <button id="pluss">+</button>
+          <h3 id="tickets">LAB 1</h3>
           <div class="dropdown">
-            <button onclick="myFunction()" class="dropbutton">0</button>
-            <div class="dropdown-content">
-              <a href="#">0</a>
-              <a href="#">1</a>
-              <a href="#">2</a>
-              <a href="#">3</a>
-              <a href="#">4</a>
-              <a href="#">5</a>
-              <a href="#">6</a>
-              <a href="#">7</a>
-              <a href="#">8</a>
-              <a href="#">9</a>
-              <a href="#">10</a>
-            </div>
+            <label for="options">Ticket</label>
+            <select name="options" id="count">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
           </div>
-          <button id="minus">-</button>
           <br />
           <input type="date" id="date" />
           <br />
-          <div class="dropdown">
-            <button class="dropbutton">0</button>
-            <div class="dropdown-content">
-              <a href="#">100</a>
-              <a href="#">200</a>
-              <a href="#">300</a>
-              <a href="#">400</a>
-              <a href="#">500</a>
-              <a href="#">600</a>
-              <a href="#">700</a>
-              <a href="#">800</a>
-              <a href="#">900</a>
-              <a href="#">1000</a>
-            </div>
-          </div>
         </div>
       </div>
       <br />
@@ -86,46 +68,27 @@
           alt="skeleton sitting on a ledge wearing a red beanie tying his red converse shoes"
         />
         <div class="ticket-options">
-          <h3>Exhibit 1 & 2</h3>
-          <button id="pluss">+</button>
+          <h3 id="tickets">Exhibit 1 & 2</h3>
           <div class="dropdown">
-            <button class="dropbutton">0</button>
-            <div class="dropdown-content">
-              <a href="#">0</a>
-              <a href="#">1</a>
-              <a href="#">2</a>
-              <a href="#">3</a>
-              <a href="#">4</a>
-              <a href="#">5</a>
-              <a href="#">6</a>
-              <a href="#">7</a>
-              <a href="#">8</a>
-              <a href="#">9</a>
-              <a href="#">10</a>
-            </div>
+            <label for="options">Ticket</label>
+            <select name="options" id="count">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
           </div>
-          <button id="minus">-</button>
           <br />
           <input type="date" id="date" />
           <br />
-          <div class="dropdown">
-            <button class="dropbutton">0</button>
-            <div class="dropdown-content">
-              <a href="#">100</a>
-              <a href="#">200</a>
-              <a href="#">300</a>
-              <a href="#">400</a>
-              <a href="#">500</a>
-              <a href="#">600</a>
-              <a href="#">700</a>
-              <a href="#">800</a>
-              <a href="#">900</a>
-              <a href="#">1000</a>
-            </div>
-          </div>
         </div>
       </div>
-      <h4>Payment</h4>
       <form action="input">
         <label for="name-on-card">Name on card:</label><br />
         <input type="text" id="name-on-card" name="name-on-card" /><br />
@@ -140,12 +103,20 @@
         <input type="text" id="telephone-number" name="telephone-number" />
       </form>
       <br />
-      <input type="radio" id="check" />
-      <i class="fa-brands fa-cc-visa"></i>
-      <br />
-      <input type="radio" id="check" />
-      <i class="fa-regular fa-face-smile-wink"></i>
-      <a href="confirmation.html"><button>Check out</button></a><br />
+      <div class="method">
+        <div class="container2">
+          <input type="radio" id="check" />
+          <i class="fa-brands fa-cc-visa"></i>
+        </div>
+        <br />
+        <div class="container2">
+          <input type="radio" id="check" />
+          <i class="fa-regular fa-face-smile-wink"></i>
+          <div class="button" id="check-out">
+            <a href="confirmation.html">Check out</a>
+          </div>
+        </div>
+      </div>
       <footer>
         <div class="openhour">
           <p>Open: Mon-friday: 12:00-20:00</p>
