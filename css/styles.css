@@ -38,8 +38,12 @@ body{
     color:black;
 }
 i{
-    margin-left: 20px;
-    font-size: 15px;
+    margin-left: 10px;
+    font-size: 20px;
+    color: white;
+}
+ul{
+    list-style: none;
 }
 .logo{
     display: flex;
@@ -320,10 +324,7 @@ input[type=text]:active{
     display: flex;
     flex-wrap: wrap;
 }
-i { 
-    color: white;
-font-size: xx-large;
-}
+
 #check-out{
 margin-top: 100px;
 
