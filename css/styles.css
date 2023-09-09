@@ -95,7 +95,7 @@ h4{
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 800px;
-    overflow:auto;
+   justify-content: space-around;
 }
 .container{ 
     position:relative;
@@ -118,7 +118,7 @@ p{
     
 }
 img {
-    width: 250px;
+    width: 280px;
     height: 500px;
     margin: 10px;
     border-radius: 20px;
@@ -215,10 +215,8 @@ footer{
     position: relative;
     justify-content: center;
     width: 260px;
-    margin: auto;
     display: flex;
     flex-wrap: wrap;
-    margin: 0px;
 }
 .dropbutton{
 background-color: rgb(2, 200, 200);
@@ -361,12 +359,11 @@ font-size: 20px;
 .container{
     margin-left: 0px;
 }
-
-#check-out{
-   
-}
 .dropdown{
     top: 15px;
+}
+.containerlogin{
+ margin-right: 100px;
 }
 
 }
