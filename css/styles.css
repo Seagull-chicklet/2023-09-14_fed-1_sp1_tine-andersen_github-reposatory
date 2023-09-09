@@ -95,6 +95,7 @@ h4{
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 800px;
+    overflow:auto;
 }
 .container{ 
     position:relative;
@@ -183,17 +184,18 @@ footer a{
 
 }
 footer{
+    
     background-position: bottom,right;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: cover;
     background-image:url(/images/alexander-andrews-fsH1KjbdjE8-unsplash.jpg);
     display: flex;
-    flex-shrink: inherit;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content:center;
+    justify-content:space-between;
     background-color: lightskyblue;
     width:100%;   
+  
 }
 .some{
     text-align: center;
@@ -366,4 +368,5 @@ font-size: 20px;
 .dropdown{
     top: 15px;
 }
+
 }
