@@ -89,7 +89,6 @@ nav li{
 header{
         background-position: bottom,right;
         background-repeat: no-repeat;
-        background-attachment: fixed;
         background-size: cover;
         background-image: url(../images/greg-rakozy-oMpAz-DN-9I-unsplash.jpg);
         background-color: lightskyblue;
@@ -143,6 +142,7 @@ h4{
     margin:0 10 0 10;
     display: flex;
     flex-wrap: wrap; 
+    margin-top: 20px;
 }
 p{
     color: white;
@@ -169,7 +169,7 @@ img {
     background-color: rgb(2, 200, 200);
     border-radius: 30px;
     position: absolute;
-    margin-top: 460px;
+    margin-top: 520px;
     justify-content: center;
     border-color: rgb(6, 74, 60);
     border-style: solid;
@@ -201,9 +201,10 @@ a:hover{
     font-size: 17px;
     justify-content: start;
     position: absolute;
-    bottom: 190px;
+    bottom: 160px;
     left:70px;
     right:70px;
+    top: 230px;
     padding:10px;
     text-align: left;
     background-color: rgb(187, 127, 191);
@@ -246,14 +247,15 @@ footer{
     display: flex;
     flex-wrap: wrap;
 }
-/*Tickets*/
 .container1{ 
     position: relative;
     justify-content: center;
     width: 260px;
     display: flex;
     flex-wrap: wrap;
+    margin-top: 50px;
 }
+/*Tickets*/
 .dropbutton{
 background-color: rgb(2, 200, 200);
 color: black;
@@ -332,10 +334,12 @@ button{
     display: flex;
     flex-wrap: wrap;
     height: 30px;
+    margin-top: 310px;
 }
 form{
     margin-left: 10px;
     height: 320px;
+    margin-top: 250px;
 }
 .main-sign-in{
     height: 250px;
@@ -359,10 +363,13 @@ input[type=text]:active{
     border: 2px solid darkcyan;
 }
 /*checkout*/
-.container2{
-    width: 100px;
+.containercheckout{
+    position:absolute;
+    width: 180px;
+    top: 110px;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
+    
 }
 fieldset{
     border-radius: 10px;
