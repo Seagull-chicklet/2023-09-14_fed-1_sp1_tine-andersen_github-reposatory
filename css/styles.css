@@ -259,14 +259,14 @@ footer{
 }
 /*Tickets*/
 .dropbutton{
-background-color: rgb(9, 99, 99);
-color: black;
-padding: 15px;
-font-size: 15px;
-border: none;
-border-radius: 10px;
-margin-top: 10px;
-}
+    background-color: rgb(9, 99, 99);
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    }
 .dropdown{
     position: relative;
     display:inline-block;
@@ -279,6 +279,7 @@ margin-top: 10px;
     border-style: inset;
     border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
     border-image: initial;
+    width: 150px;
 }
 .options-content{
     display: none;
@@ -307,7 +308,7 @@ margin-top: 10px;
 input {
     border-radius: 10px;
    background-color: rgb(9, 99, 99);
-    padding: 6px;
+    padding: 10px;
     color: white;
 }
 .ticket-options{
@@ -319,9 +320,14 @@ input {
     border-radius: 20px;
 }
 #tickets{
-    width: 244px;
-    border-radius: 0px;
-    margin-top: 0;
+    width: 150px;
+    border-radius: 5px;
+    margin-top: 0;    
+}
+#date{
+    width: 110px;
+    background-color: white;
+    color: black;
 }
 button{
     background-color: rgb(9, 99, 99);
