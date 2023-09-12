@@ -364,22 +364,22 @@ input[type=text]:active{
 /*checkout*/
 .containercheckout{
     position:relative;
-    width: 180px;
+    width: 250px;
     display: flex;
     flex-wrap: wrap; 
     left: 30px;
+    margin-top: -90px;
 }
 fieldset{
     border-radius: 10px;
     border-style: none;
 }
 .container-cart{
-    display: flex;
-    flex-direction: column;
     border: 1px solid white;
     border-radius: 20px;
     margin-top: 200px;
     width: 250px;
+    overflow: scroll;
 }
 hr{
    border: 2px solid white;
