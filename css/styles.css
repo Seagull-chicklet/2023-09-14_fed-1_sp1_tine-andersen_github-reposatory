@@ -91,7 +91,7 @@ header{
         background-repeat: no-repeat;
         background-size: cover;
         background-image: url(../images/greg-rakozy-oMpAz-DN-9I-unsplash.jpg);
-        background-color: lightskyblue;
+        background-color: rgb(6, 6, 6);
         width:100%;
         z-index: 999;
         text-align: center;
