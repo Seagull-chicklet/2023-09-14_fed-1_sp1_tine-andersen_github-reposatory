@@ -116,7 +116,7 @@ h2{
 }
 h3{
     font-size: 20px;
-    background-color: rgb(2, 200, 200);
+    background-color: rgb(12, 124, 124);
     height: 40px;
     border-radius: 8px;
     padding: 3px;
@@ -259,7 +259,7 @@ footer{
 }
 /*Tickets*/
 .dropbutton{
-background-color: rgb(2, 200, 200);
+background-color: rgb(9, 99, 99);
 color: black;
 padding: 15px;
 font-size: 15px;
@@ -271,7 +271,7 @@ margin-top: 10px;
     position: relative;
     display:inline-block;
     margin-bottom: 20px;
-    background-color: rgb(2, 200, 200);
+    background-color: rgb(9, 99, 99);
     border-radius: 10px;
     border: 1px solid black;
     padding: 8px;
@@ -283,7 +283,7 @@ margin-top: 10px;
 .options-content{
     display: none;
     position: absolute;
-    background-color: rgb(2, 200, 200);
+    background-color: rgb(9, 99, 99);
     width: 100%;
     overflow: auto;
     z-index: 1;
@@ -306,7 +306,7 @@ margin-top: 10px;
 }
 input {
     border-radius: 10px;
-   background-color: rgb(2, 202, 202);
+   background-color: rgb(9, 99, 99);
     padding: 6px;
     color: white;
 }
@@ -314,7 +314,7 @@ input {
     margin-top: -220px;
     width: 250px;
     text-align: center;
-    background-color:darkcyan;
+    background-color:rgb(5, 57, 57);
     margin-bottom: 40px;
     border-radius: 20px;
 }
@@ -324,7 +324,7 @@ input {
     margin-top: 0;
 }
 button{
-    background-color: rgb(2, 200, 200);
+    background-color: rgb(9, 99, 99);
     border-radius: 5px;
 }
 .ul {
@@ -363,7 +363,7 @@ border:2px solid rgb(2, 200, 200);
 
 input[type=text]:active{
     outline: none;
-    border: 2px solid darkcyan;
+    border: 2px solid rgb(5, 57, 57);
 }
 /*checkout*/
 .containercheckout{
