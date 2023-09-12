@@ -22,7 +22,7 @@ body{
     height: 100%;
     display: flex;
     align-items: center;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 .nav-toggle-label span,
 .nav-toggle-label span::before,
