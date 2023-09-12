@@ -146,6 +146,7 @@ h4{
 }
 p{
     color: white;
+    font-size: 25px;
 }
 
 .department{
@@ -241,7 +242,7 @@ footer{
 }
 /*schedule*/
 .openhour{
-    font-size: 15px;
+    font-size: 20px;
     text-align:center;
     color: white;
     margin:auto;
@@ -326,9 +327,9 @@ button{
     background-color: rgb(2, 200, 200);
     border-radius: 5px;
 }
-.ul{
+.ul {
     list-style: none;
-    height: 100px;
+    height: 100px
 }
 /*sign-in*/
 .containerlogin{
