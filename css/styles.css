@@ -187,7 +187,6 @@ img {
 a{
     text-decoration: none;
     color:white;
-    top:30px;
 }
 a:hover{
     color: lightgray;
@@ -386,7 +385,6 @@ fieldset{
 }
 hr{
    border: 2px solid white;
-   
 }
 
 
