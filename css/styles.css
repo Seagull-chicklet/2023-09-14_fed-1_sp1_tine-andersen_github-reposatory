@@ -103,18 +103,19 @@ header{
 h1{
     display: flex;
     flex-wrap: wrap;
-    font-size: 40px;
+    font-size: 35px;
     margin-top:10px;
     margin-left: 160px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    st
 }
 h2{
-    font-size: 50px;
+    font-size: 30px;
     color: rgb(252, 252, 250);  
     margin-top: 110px;
 }
 h3{
-    font-size: 30px;
+    font-size: 20px;
     background-color: rgb(2, 200, 200);
     height: 40px;
     border-radius: 8px;
@@ -165,7 +166,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     padding: 10px;
-    background-color: rgb(2, 200, 200);
+    background-color: rgb(9, 99, 99);
     border-radius: 30px;
     position: absolute;
     margin-top: 520px;
@@ -177,7 +178,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     padding: 10px;
-    background-color: rgb(2, 200, 200);
+    background-color: rgb(6, 74, 60);
     border-radius: 30px;
     position: absolute;
     justify-content: center;
@@ -206,7 +207,7 @@ a:hover{
     top: 230px;
     padding:10px;
     text-align: left;
-    background-color: rgb(187, 127, 191);
+    background-color: rgb(106, 72, 109);
     border-radius: 20px;
 }
 
