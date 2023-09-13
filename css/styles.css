@@ -174,7 +174,7 @@ img {
     position: absolute;
     margin-top: 520px;
     justify-content: center;
-    border-color: rgb(6, 74, 60);
+    border-color: aquamarine;
     border-style: solid;
 }
 .button{
@@ -211,6 +211,7 @@ a:hover{
     padding:10px;
     text-align: left;
     background-color: rgb(106, 72, 109);
+    background-position: 100%;
     border-radius: 20px;
 }
 
@@ -274,7 +275,7 @@ footer{
     margin-bottom: 20px;
     background-color: rgb(9, 99, 99);
     border-radius: 10px;
-    border: 1px solid black;
+    border: 1px solid aquamarine;
     padding: 8px;
     border-width: 2px;
     border-style: inset;
@@ -323,12 +324,13 @@ input {
 #tickets{
     width: 150px;
     border-radius: 5px;
-    margin-top: 0;   
+    margin-top: 0;  
+    border-color: aquamarine; 
 }
 #date{
     width: 110px;
     background-color: rgb(252, 252, 252);
-    
+    border-color: aquamarine;
 }
 label{
     color: rgb(255, 250, 250);
