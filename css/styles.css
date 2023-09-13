@@ -22,7 +22,7 @@ body{
     height: 100%;
     display: flex;
     align-items: center;
-    color: rgb(0, 0, 0);
+    color: transparent;
 }
 .nav-toggle-label span,
 .nav-toggle-label span::before,
@@ -104,13 +104,13 @@ header{
 h1{
     display: flex;
     flex-wrap: wrap;
-    font-size: 35px;
+    font-size: 30px;
     margin-top:0px;
     margin-left: 160px;
     color: rgb(255, 255, 255);
 }
 h2{
-    font-size:30px;
+    font-size:25px;
     color: rgb(252, 252, 250);  
     margin-top: 110px;
 }
@@ -146,7 +146,8 @@ h4{
 }
 p{
     color: white;
-    font-size: 25px;
+    font-size: 20px;
+    margin-top: 10px;
 }
 
 .department{
@@ -401,13 +402,13 @@ hr{
 @media (width <= 500px){
    
      h1{
-       font-size: 30px;  
+       font-size: 20px;  
     }
     h2{
-        font-size: 25px;
+        font-size: 15px;
     }
     h3{
-        font-size: 15px;
+        font-size: 10px;
         height: 20px;
        margin-bottom: 0px;
     }
