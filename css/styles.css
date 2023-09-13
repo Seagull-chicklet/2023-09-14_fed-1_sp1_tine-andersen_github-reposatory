@@ -395,7 +395,10 @@ fieldset{
 hr{
    border: 2px solid white;
 }
-
+#submit{
+    color: white;
+    border-color: aquamarine;
+}
 
 /*media queries*/
 
