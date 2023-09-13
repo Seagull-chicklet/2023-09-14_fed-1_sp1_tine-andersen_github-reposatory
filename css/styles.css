@@ -49,7 +49,7 @@ nav{
     text-align: left;
     background-color:rgb(187, 127, 191);
     position:absolute;
-    top: 45%; 
+    top: 100%; 
     display: none;
 }
 nav a{
