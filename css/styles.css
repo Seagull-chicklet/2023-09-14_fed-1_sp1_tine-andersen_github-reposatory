@@ -7,9 +7,9 @@ html *{
 
 body{
     margin:0 auto;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
+   max-width: 100%;
+    height: 100vh;
+   display: grid;
 }
 .nav-toggle{
     display: none;
@@ -95,8 +95,6 @@ header{
         background-color: rgb(6, 6, 6);
         width:100%;
         z-index: 999;
-        text-align: center;
-        align-items: center;
         position: fixed;
         height: 80px;
     }
@@ -110,9 +108,9 @@ h1{
     color: rgb(255, 255, 255);
 }
 h2{
-    font-size:25px;
-    color: rgb(252, 252, 250);  
-    margin-top: 110px;
+    font-size:35px;
+    color: rgb(252, 252, 250); 
+    margin-top: 100px; 
 }
 h3{
     font-size: 20px;
@@ -126,23 +124,23 @@ h4{
     font-size: 20px;
 }
 .mainwrapper{
-    display: flex;
+    display:flex;
     flex-flow: wrap;
     background-color: black;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 800px;
-  
+    height: 100vh;
+    justify-content: center;
  
 }
 .container{ 
     position:relative;
-    justify-content: center;
     width: 270px;
     margin:0 10 0 10;
     display: flex;
-    flex-wrap: wrap; 
+    flex-direction: column; 
     margin-top: 20px;
+    justify-content:flex-start;
 }
 p{
     color: white;
@@ -151,31 +149,31 @@ p{
 }
 
 .department{
-    position: absolute;
+    position:absolute;
     text-align:justify;
     padding:30px;
-    text-align:center;
-    
 }
 img {
-    width: 250px;
-    height: 500px;
+    max-width: 250px;
+    height: 600px;
     margin: 10px;
     border-radius: 20px;
     margin-top: 100px;
+    object-fit: cover;
 }
 
 .button_dark{
+   
     display: flex;
-    flex-wrap: wrap;
-    padding: 10px;
+    flex-flow: wrap;
+    padding: 5px;
     background-color: rgb(9, 99, 99);
     border-radius: 30px;
-    position: absolute;
-    margin-top: 520px;
     justify-content: center;
     border-color: aquamarine;
     border-style: solid;
+    
+
 }
 .button{
     display: flex;
@@ -185,7 +183,7 @@ img {
     border-radius: 30px;
     position: absolute;
     justify-content: center;
-    margin-top: 360px;
+   
 }
 a{
     text-decoration: none;
@@ -202,9 +200,8 @@ a:hover{
     flex-wrap: wrap;
     color: white;
     font-size: 17px;
-    justify-content: start;
-    position: absolute;
-    bottom: 95px;
+    justify-content:center;
+    position: absolute; 
     left:70px;
     right:50px;
     top: 200px;
@@ -232,11 +229,10 @@ footer{
     background-image:url(/images/alexander-andrews-fsH1KjbdjE8-unsplash.jpg);
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content:space-between;
+    justify-content:center;
     background-color: rgb(6, 6, 6);
     width:100%;   
-  
+    align-items: end;
 }
 .some{
     text-align: center;
@@ -345,24 +341,17 @@ button{
 }
 /*sign-in*/
 .containerlogin{
-    position: absolute;
+   
     display:flex;
-    flex-wrap: wrap;
-    height: 30px;
-    margin-top: 410px;
-    margin-left:150px;
+    flex-direction: column;
+    justify-content:space-around;
+    align-self:auto;
 }
-.containerforget{
-    position: absolute;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top:470px;
-    margin-left: 140px;
-}
+
 form{
     margin-left: 10px;
     height: 320px;
-    margin-top: 250px;
+    margin-top: 150px;
     padding:20px;
 }
 .main-sign-in{
@@ -396,11 +385,11 @@ fieldset{
     border-style: none;
 }
 .container-cart{
-    border: 1px solid white;
+    position: relative;
+    align-content:space-around;
     border-radius: 20px;
-    margin-top: 200px;
     width: 250px;
-    overflow: scroll;
+max-height: fit-content;
 }
 hr{
    border: 2px solid white;
@@ -415,30 +404,28 @@ hr{
 @media (width <= 500px){
    
      h1{
-       font-size: 20px;  
+       font-size: 30px;  
     }
     h2{
-        font-size: 15px;
+        font-size: 25px;
     }
     h3{
-        font-size: 10px;
+        font-size: 20px;
         height: 20px;
        margin-bottom: 0px;
     }
-    h4{
-        font-size: 10px;
-    }
+    
     .openhour{
-        font-size: 10px;
+        font-size: 20px;
     }
   li, p{
-    font-size: 10px;
+    font-size: 15px;
   }
   form{
     margin-left: 10px;
 }
  a{
-font-size: 20px;
+font-size: 30px;
 }
 .container{
     margin-left: 0px;
